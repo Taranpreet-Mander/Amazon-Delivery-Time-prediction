@@ -1,0 +1,16 @@
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# dont commit the real/large dataset or trained models
+# (the small synthetic sample in data/ IS committed on purpose)
+*.pkl
+*.joblib
+amazon_delivery*.csv
+
+# editors
+.vscode/
+.idea/
+.ipynb_checkpoints/
